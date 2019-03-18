@@ -149,5 +149,52 @@ We can share the analytics, inside a gallery called "Solutions Gallery" where al
     
 
 
+### Basic Reporting:
 
+1) Audience report: It gives us information about the users of the website. information such as what country they are from, what languages they speak, the technology they use, etc.
+    
+- __Active Users Report:__ shows how many users had at least one session on the website, we can change the filter to last day, last 7 days, last month, etc.
+(photo: audience-active-users.jpg)
+
+We call this __Active Users__ feature, __"Site Reach or Stickiness".__ 
+
+If the content of the page is encouraging to the audience to come back, this number of active users has to grow.
+
+- __Demographics Report:__ it show information about the age, and gender of the users.
+
+- __Interests Report:__ Shows the general user taste for specific web contents. like technology, travel, music, etc.
+
+In order to see the interest and demographic reports, we need to activate them for all properties. In order to do this:
+` click on admin, under each property click on property setting, then under advertizing features, enable demographics and interest reports.`
+
+- __Geo Reports:__ It is so useful for example we can see what countries are having high conversion rate, or transactions, but low traffic rates. `This shows unptapped market to be potential target for advertising.` Another analysis, is to see what country or region has already large amount of audience but lower than average performance. `If in some countries we have high bounce rate, or find out people leaving after visiting a particular page, we must update the content of that page or the related ad. Maybe there is an ad that needs to be translaated to the local language.`
  
+- __Behavior Reports:__ shows how the users behave. new vs returning users show the different metrics and goals for new and returning users.
+
+-__Technology, and Mobile reports:__ Using these, we make sure that the website works well in any browser, or operation system or device.
+
+2- Acquisition Reports: This is a very useful report that we use to compare which marketing channel is performing better, and discover which sources sends the website the highest quality traffic and conversion. `it helps to decide where and how to foucs on the marketing efforts'.`
+
+When a user lands on a page, the GA tracker, captures 3 info:
+
+- __Medium:__ The mechanism that delivers user to this page: organic, cpc, referral, email, none.
+        
+        * organic comes from non-paid search results
+        * CPC comes from paid google searches.
+        * Referral comes another website other than the search engine.
+        * email refers to the user clicking on an email marketing campaing.
+        * None, is the user who directly typed the url into the browser.
+- __Source:__ Source provides more information about the medium. For example, if the medium is referral, then the source will be the url of the website that the user clicked on. If the medium is organic, the source will be the name of the search engine.
+Under `acquisition/all traffic` we can use source/medium to see both of medium and source at the same time. in this report we can see the source-mediums with the highest users which shows which one is performing better (photo: acquisition-medium-source-report.jpg).
+        
+  However, we don't know the quality of this traffic and the number of the users is not a good enough indicator of the business performance. `A good performance indicator, is the bounce rate.` This is a very nice comparision acquisition-bounce-comparison,jpg to know that although Youtube had very high user view, but it had the highest bounce rate.
+  
+  Another nice example, is to search for organic in the medium-source report and see what source is bringing more organic traffic. (photo: acquisition-organic-traffic-source-comparison.jpg)
+  
+  Another example, by seeing how much each Google related marketing activity has performed we can search for Google in the same report. (photo: acquisition-google-marketing-sources-comparison.jpg)
+  
+  Referrals under the acquisition, shows which web pages are sending traffic to the website and we can add second dimension called Landing Page to see what page of our website is being linked to the referring sites. (photo: acquisition-referral-landing-page.jpg)
+- __Campaign__ 
+
+__Review:__ URI is the part of URL after the domain name.
+
